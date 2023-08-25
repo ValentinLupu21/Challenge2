@@ -1,0 +1,127 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.flyer{
+    position: relative;
+    top: 200px;
+    left: 600px;
+    margin: 0;
+
+}
+
+.cutie {
+    position: relative;
+    width: 350px;
+    height: 500px;
+}
+
+.white-sheet{
+    position: relative;
+    bottom: 500px;
+    left: 333.33px;
+    width: 333.33px;
+    height: 500px;
+    background-color: white;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.sub-title{
+    margin: 0 auto;
+    position: relative;
+    left: 40px;
+    top: 30px;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+.title{
+    margin: 0;
+    width: 250px;
+    font-size: 35px;
+    text-align: left;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+.description{
+    margin: 0;
+    width: 250px;
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    left: 40px;
+    top: 80px;
+    color: hsl(228, 12%, 48%);
+}
+
+.preturi{
+    margin: 0;
+    display: inline-block;
+}
+
+.pret-redus{
+    position: relative;
+    left: 40px;
+    top: 80px;
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+}
+
+.pret-intreg{
+    position: relative;
+    left: 200px;
+    top: 23px;
+    text-decoration-line: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.myButton {
+    position: relative;
+    left: 40px;
+    top: 40px;
+	background-color:hsl(158, 36%, 37%);
+	border-radius:10px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:15px 76px;
+	text-decoration:none;
+    font-weight: 600;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.cart{
+    color: white;
+    position: relative;
+    top: 4px;
+    left: 90px;
+    width: 17px;
+    height: 17px;
+    z-index: 1;
+}
